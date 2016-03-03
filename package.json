@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "pi-blaster.js": "^0.1.1"
+    "pi-blaster.js": "^0.1.1",
+    "wiring-pi": "^2.1.1"
   },
   "devDependencies": {},
   "scripts": {
