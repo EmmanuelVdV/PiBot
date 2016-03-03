@@ -1,0 +1,28 @@
+Installation du serveur pi-blaster
+----------------------------------
+sudo apt-get install autoconf
+cd ~/Public
+git clone https://github.com/sarfata/pi-blaster.git
+cd pi-blaster
+./autogen.sh
+./configure
+make
+(pour désinstaller : sudo make uninstall)
+
+Démarrage manuel du serveur
+---------------------------
+sudo ./pi-blaster
+
+Démarrage automatique après reboot
+----------------------------------
+sudo make install
+
+
+Projet PiBot
+------------
+cd ~/Projects
+mkdir PiBot
+cd PiBot
+npm init --yes
+npm install pi-blaster --save
+npm install wiring-pi --save
