@@ -20,9 +20,16 @@ sudo make install
 
 Projet PiBot
 ------------
-cd ~/Projects
+cd ~/Documents/Projects
 mkdir PiBot
 cd PiBot
 npm init --yes
-npm install pi-blaster --save
 npm install wiring-pi --save
+
+Module pi-blaster.js
+--------------------
+"npm install pi-blaster.js" installe la version 0.1.1 du module qui
+n'implémente pas la fonction "release" nécessaire pour relâcher les PINs
+utilisés avec le daemon piblaster
+Il faut faire un "git clone https://github.com/sarfata/pi-blaster.js.git" dans
+le répertoire node_modules du projet PiBot à la place du "npm install"
