@@ -33,3 +33,9 @@ n'implémente pas la fonction "release" nécessaire pour relâcher les PINs
 utilisés avec le daemon piblaster
 Il faut faire un "git clone https://github.com/sarfata/pi-blaster.js.git" dans
 le répertoire node_modules du projet PiBot à la place du "npm install"
+
+
+TODO
+----
+Faire le tri dans les fonctions présentées sur bot.js (accelerate / decelerate / update / forward...)
+Implémenter la page web
